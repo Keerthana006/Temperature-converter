@@ -1,0 +1,76 @@
+ 
+ /* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('back.jpg'); /* Replace 'your-image.jpg' with the actual file name of your image */
+    background-size: cover; /* Adjust this as needed */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Container styles */
+.container {
+    background-color: #fff;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading styles */
+h1 {
+    color: #007bff;
+    font-size: 24px;
+}
+
+/* Temperature converter section styles */
+.converter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Input, select, and button styles */
+input, select, button {
+    padding: 10px;
+    width: 150px;
+    margin: 10px 0;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+/* Button styles */
+button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Result styles */
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* Hidden element styles (for result) */
+.hidden {
+    display: none;
+}
